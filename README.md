@@ -17,7 +17,15 @@ This project is a proof of concept (POC) for the Makersharks Supplier Search API
 ## Installation
 
 1. **Clone the repository:**
-
+   
    ```bash
-   git clone https://github.com/your-username/makersharks-supplier-search-api.git
-   cd makersharks-supplier-search-api
+   git clone https://github.com/Vigneshmunikannan/Makersharks-search-API.git
+
+2. **Install dependencies:**
+   
+ ```bash
+  npm install
+
+2. **Install dependencies:**
+
+
