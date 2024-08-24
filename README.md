@@ -50,6 +50,46 @@ Example Request Body:
               "page": 1
             }
 
+location: (optional) The location of the suppliers.
+nature_of_business: (optional) The nature of the business (small_scale, medium_scale, large_scale).
+manufacturing_processes: (optional) An array of manufacturing processes (e.g., moulding, 3d_printing, casting, coating).
+limit: (optional) The maximum number of suppliers to return. Defaults to 10.
+page: (optional) The page number for pagination. Defaults to 1.
 
+Example Response:
 
+         {
+           "suppliers": [
+             {
+               "supplier_id": "12345",
+               "company_name": "ABC Manufacturing",
+               "website": "http://abcmanufacturing.com",
+               "location": "India",
+               "nature_of_business": "small_scale",
+               "manufacturing_processes": ["3d_printing", "moulding"]
+             },
+             ...
+           ],
+           "totalPages": 5,
+           "currentPage": 1
+         }
+
+suppliers: An array of suppliers that match the search criteria.
+Total pages: The total number of pages available.
+currentPage: The current page number.
+
+## CURL Commands
+To query suppliers, you can use the following CURL command:
+
+         curl -X POST http://localhost:3000/api/supplier/query \
+      -H "Content-Type: application/json" \
+      -d '{
+            "location": "India",
+            "nature_of_business": "small_scale",
+            "manufacturing_processes": ["3d_printing"],
+            "limit": 10,
+            "page": 1
+          }'
+
+          
 
