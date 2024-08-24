@@ -91,5 +91,3 @@ To query suppliers, you can use the following CURL command:
             "page": 1
           }'
 
-
-
