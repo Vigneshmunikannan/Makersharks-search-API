@@ -26,6 +26,6 @@ This project is a proof of concept (POC) for the Makersharks Supplier Search API
  ```bash
   npm install
 
-2. **Install dependencies:**
+
 
 
