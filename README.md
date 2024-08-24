@@ -41,7 +41,6 @@ Method: POST
 Description: Retrieves a list of suppliers based on the provided criteria.
 
 Example Request Body:
-        ```bash
         
             {
               "location": "India",
