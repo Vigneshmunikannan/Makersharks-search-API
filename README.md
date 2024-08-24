@@ -2,6 +2,11 @@
 
 This project is a proof of concept (POC) for the Makersharks Supplier Search API, which allows buyers to search for manufacturers based on customized requirements such as location, nature of business, and manufacturing processes.
 
+## Point to note
+   <ol>
+      <li>This backend Api search application is made using Node js because I'm completely new to Spring Boot but I want to prove my backend skills, I know Spring Boot is just another backend framework I can learn but I need time to 5-8 days to complete, the task I done using node js</li>
+   </ol>
+
 ## Project Structure
 
 - **controllers/**: Contains the controller logic for handling API requests.
