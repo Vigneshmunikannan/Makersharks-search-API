@@ -26,6 +26,9 @@ This project is a proof of concept (POC) for the Makersharks Supplier Search API
     ```bash
     npm install
 
+3. **Set up environment variables:**
+   if needed change the .env data 
+4. **Running the Application**
 
-
-
+   ```bash
+   npm start
