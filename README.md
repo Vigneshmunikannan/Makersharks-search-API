@@ -42,7 +42,8 @@ Description: Retrieves a list of suppliers based on the provided criteria.
 
 Example Request Body:
         ```bash
-                 {
+        
+            {
               "location": "India",
               "nature_of_business": "small_scale",
               "manufacturing_processes": ["3d_printing"],
